@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/dependencies/GLEW/doc/travis.png
+/dependencies/GLEW/doc/ogl_sm.jpg
+/dependencies/GLEW/doc/new.png
+/dependencies/GLEW/doc/mesa.txt
