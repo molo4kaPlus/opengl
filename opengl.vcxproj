@@ -161,6 +161,16 @@
     <ClCompile Include="src\VertexBuffer.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="dependencies\GLEW\doc\advanced.html" />
+    <None Include="dependencies\GLEW\doc\basic.html" />
+    <None Include="dependencies\GLEW\doc\build.html" />
+    <None Include="dependencies\GLEW\doc\credits.html" />
+    <None Include="dependencies\GLEW\doc\glew.html" />
+    <None Include="dependencies\GLEW\doc\glxew.html" />
+    <None Include="dependencies\GLEW\doc\index.html" />
+    <None Include="dependencies\GLEW\doc\install.html" />
+    <None Include="dependencies\GLEW\doc\log.html" />
+    <None Include="dependencies\GLEW\doc\wglew.html" />
     <None Include="res\shaders\Basic.shader" />
     <None Include="res\shaders\myBad.shader" />
     <None Include="src\vendor\glm\detail\func_common.inl" />
@@ -301,6 +311,12 @@
     <None Include="src\vendor\glm\gtx\wrap.inl" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="dependencies\GLEW\include\GL\eglew.h" />
+    <ClInclude Include="dependencies\GLEW\include\GL\glew.h" />
+    <ClInclude Include="dependencies\GLEW\include\GL\glxew.h" />
+    <ClInclude Include="dependencies\GLEW\include\GL\wglew.h" />
+    <ClInclude Include="dependencies\GLFW\include\GLFW\glfw3.h" />
+    <ClInclude Include="dependencies\GLFW\include\GLFW\glfw3native.h" />
     <ClInclude Include="src\IndexBuffer.h" />
     <ClInclude Include="src\Renderer.h" />
     <ClInclude Include="src\Shader.h" />
@@ -614,6 +630,7 @@
     <Library Include="dependencies\GLEW\lib\Release\Win32\glew32s.lib" />
     <Library Include="dependencies\GLEW\lib\Release\x64\glew32.lib" />
     <Library Include="dependencies\GLEW\lib\Release\x64\glew32s.lib" />
+    <Library Include="dependencies\GLFW\lib-vc2022\glfw3.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
