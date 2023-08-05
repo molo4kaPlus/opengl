@@ -28,10 +28,6 @@ namespace test
         GLCall(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA));
         GLCall(glEnable(GL_BLEND));
 
-        unsigned int vao;
-        GLCall(glGenVertexArrays(1, &vao));
-        GLCall(glBindVertexArray(vao));
-
         m_VAO = std::make_unique<VertexArray>();
         m_VertexBuffer = std::make_unique<VertexBuffer>(possitions, 4 * 4 * sizeof(float));
 

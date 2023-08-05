@@ -24,6 +24,7 @@
 
 #include "tests/TestClearColor.h"
 #include "tests/TestTexture2D.h"
+#include "tests/TestCircle.h"
 
 
 
@@ -75,6 +76,7 @@ int main(void)
 
         testMenu->RegisterTest<test::TestClearColor>("clear color");
         testMenu->RegisterTest<test::TestTexture2D>("Texteure2D");
+        testMenu->RegisterTest<test::TestCircle>("Circle");
 
         while (!glfwWindowShouldClose(window))
         {
