@@ -1407,4 +1407,10 @@
       <Filter>Файлы ресурсов</Filter>
     </Image>
   </ItemGroup>
+  <ItemGroup>
+    <Library Include="dependencies\GLEW\lib\Release\x64\glew32.lib" />
+    <Library Include="dependencies\GLEW\lib\Release\x64\glew32s.lib" />
+    <Library Include="dependencies\GLEW\lib\Release\Win32\glew32.lib" />
+    <Library Include="dependencies\GLEW\lib\Release\Win32\glew32s.lib" />
+  </ItemGroup>
 </Project>
